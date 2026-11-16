@@ -1,0 +1,88 @@
+/* Estilos sencillos para organizar los ejercicios */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    color: #222;
+}
+
+header {
+    text-align: center;
+    background-color: #234a75;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0 0 8px;
+}
+
+.ejercicio {
+    max-width: 650px;
+    margin: 18px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.08);
+}
+
+.ejercicio h2 {
+    margin-top: 0;
+    color: #234a75;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 14px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2878bd;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d5d94;
+}
+
+.resultado {
+    font-weight: bold;
+    color: #17613b;
+    min-height: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 25px;
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .ejercicio {
+        padding: 15px;
+    }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 67</title> 
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Laboratorio 67</h1>
+    </header>
+
+    <main>
+        <!-- Ejercicio 1: suma de tres valores -->
+        <section class="ejercicio">
+            <h2>1. Suma de tres valores</h2>
+            <label for="suma1">Primer número:</label>
+            <input type="number" id="suma1">
+            <label for="suma2">Segundo número:</label>
+            <input type="number" id="suma2">
+            <label for="suma3">Tercer número:</label>
+            <input type="number" id="suma3">
+            <button type="button" onclick="calcularSuma()">Calcular suma</button>
+            <p id="resultadoSuma" class="resultado"></p>
+        </section>
+
+        <!-- Ejercicio 2: cuadrado de un número -->
+        <section class="ejercicio">
+            <h2>2. Cuadrado de un número</h2>
+            <label for="numeroCuadrado">Ingrese un número:</label>
+            <input type="number" id="numeroCuadrado">
+            <button type="button" onclick="calcularCuadrado()">Calcular cuadrado</button>
+            <p id="resultadoCuadrado" class="resultado"></p>
+        </section>
+
+        <!-- Ejercicio 3: promedio de calificaciones -->
+        <section class="ejercicio">
+            <h2>3. Promedio de calificaciones</h2>
+            <label for="nombre">Nombre del estudiante:</label>
+            <input type="text" id="nombre" placeholder="Nombre del estudiante">
+            <label for="nota1">Primera calificación:</label>
+            <input type="number" id="nota1" step="any">
+            <label for="nota2">Segunda calificación:</label>
+            <input type="number" id="nota2" step="any">
+            <label for="nota3">Tercera calificación:</label>
+            <input type="number" id="nota3" step="any">
+            <button type="button" onclick="calcularPromedio()">Calcular promedio</button>
+            <p id="resultadoPromedio" class="resultado"></p>
+        </section>
+
+        <!-- Ejercicio 4: conversión de metros -->
+        <section class="ejercicio">
+            <h2>4. Conversión de unidades (metros)</h2>
+            <label for="metros">Ingrese la cantidad de metros:</label>
+            <input type="number" id="metros" min="0" step="any">
+            <button type="button" onclick="convertirMetros()">Convertir</button>
+            <p id="resultadoMetros" class="resultado"></p>
+        </section>
+
+        <!-- Ejercicio 5: comparación de dos valores -->
+        <section class="ejercicio">
+            <h2>5. Comparación de dos valores</h2>
+            <label for="valor1">Primer número:</label>
+            <input type="number" id="valor1">
+            <label for="valor2">Segundo número:</label>
+            <input type="number" id="valor2">
+            <button type="button" onclick="compararValores()">Comparar valores</button>
+            <p id="resultadoComparacion" class="resultado"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Cristhian Carrasco</p>
+    </footer>
+</body>
+</html>
